@@ -22,6 +22,9 @@ ZENA_DATA = [
     {"date": "2023-10-21", "distance_miles": 2.66, "time_minutes": 30, "name": "Zena"},
     {"date": "2023-10-23", "distance_miles": 5.34, "time_minutes": 65, "name": "Zena"},
     {"date": "2023-10-25", "distance_miles": 5.66, "time_minutes": 65, "name": "Zena"},
+{"date": "2023-10-26", "distance_miles": 5.56, "time_minutes": 65, "name": "Zena"},
+{"date": "2023-10-28", "distance_miles": 5.30, "time_minutes": 65, "name": "Zena"},
+{"date": "2023-10-30", "distance_miles": 5.42, "time_minutes": 65, "name": "Zena"},
 ]
 
 ZENA_CONSISTENCY_TUPLES = [(datum['time_minutes'], util.to_date(datum['date'])) for datum in ZENA_DATA]
